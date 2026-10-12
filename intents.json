@@ -1,0 +1,193 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Good evening",
+        "Is anyone there?",
+        "Hola",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! Welcome to ShopEase Customer Support. How can I assist you today?",
+        "Hi there! I'm your virtual support assistant. What can I help you with?",
+        "Greetings! How may I help you with your shopping or orders today?"
+      ],
+      "context_set": "greeting"
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Have a nice day",
+        "Exit",
+        "Catch you later",
+        "That's all for now"
+      ],
+      "responses": [
+        "Goodbye! Thank you for chatting with ShopEase Support. Have a wonderful day!",
+        "See you later! Feel free to reach out anytime you need assistance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot",
+        "Appreciate your help",
+        "Awesome, thank you"
+      ],
+      "responses": [
+        "You're very welcome! Is there anything else I can help you with?",
+        "Happy to help! Let me know if you have any other questions.",
+        "Anytime! Glad I could assist."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bot_identity",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Are you a human or a bot?",
+        "What is your name?",
+        "Tell me about yourself",
+        "What can you do?"
+      ],
+      "responses": [
+        "I am the ShopEase AI Assistant! I can help you track orders, process returns, check refunds, view payment options, and answer store FAQs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Track my order",
+        "Check order status",
+        "When will my package arrive?",
+        "Order tracking",
+        "I want to check my delivery status",
+        "Has my order shipped yet?"
+      ],
+      "responses": [
+        "I can certainly check that for you! Could you please share your 6-digit Order ID (e.g., #102345)? Or let me know if you want to cancel or modify this order."
+      ],
+      "context_set": "order_context"
+    },
+    {
+      "tag": "order_cancel",
+      "patterns": [
+        "Cancel my order",
+        "I want to cancel my purchase",
+        "How do I cancel an order?",
+        "Can I cancel it?",
+        "Cancel this order please",
+        "Stop my delivery"
+      ],
+      "responses": [
+        "Orders can be canceled before they are dispatched. Go to 'My Orders' -> Select Order -> Click 'Cancel Order', or provide your Order ID here and I will initiate the cancellation for you."
+      ],
+      "context_set": "order_context"
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What is your return policy?",
+        "How can I return a product?",
+        "Can I return an item?",
+        "I received a damaged item",
+        "Exchange policy",
+        "How many days do I have to return?"
+      ],
+      "responses": [
+        "We offer a hassle-free 14-day return and exchange policy for unused items in their original packaging. Would you like to know how long the refund takes after a return?"
+      ],
+      "context_set": "return_context"
+    },
+    {
+      "tag": "refund_status",
+      "patterns": [
+        "Where is my refund?",
+        "When will I get my money back?",
+        "How long does a refund take?",
+        "Check refund status",
+        "Refund not received yet",
+        "How long does it take?"
+      ],
+      "responses": [
+        "Once your returned item is picked up and inspected, refunds are processed within 3 to 5 business days back to your original payment method."
+      ],
+      "context_set": "return_context"
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Do you accept UPI?",
+        "Can I pay with credit card?",
+        "Is Cash on Delivery available?",
+        "Payment options",
+        "Do you have EMI options?"
+      ],
+      "responses": [
+        "We accept UPI (GPay, PhonePe, Paytm), Credit/Debit Cards (Visa, MasterCard, RuPay), Net Banking, No-Cost EMI, and Cash on Delivery (COD) on eligible orders."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "How much is shipping?",
+        "Do you offer free delivery?",
+        "Delivery charges",
+        "How long does shipping take?",
+        "Do you ship internationally?",
+        "Express shipping options"
+      ],
+      "responses": [
+        "Standard shipping takes 3-5 business days and is FREE on orders above Rs. 499! Express 1-day delivery is available in select cities for Rs. 99."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "discounts_offers",
+      "patterns": [
+        "Are there any promo codes?",
+        "Do you have any discounts?",
+        "Current offers and coupons",
+        "How can I get a discount?",
+        "Sale offers today",
+        "First order coupon code"
+      ],
+      "responses": [
+        "You can use code WELCOME15 for 15% off your first order (up to Rs. 300)! Also check our 'Deals of the Day' banner for up to 50% off electronics and fashion."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "human_agent",
+      "patterns": [
+        "I want to talk to a human",
+        "Connect me to customer care",
+        "Speak to an agent",
+        "Customer support phone number",
+        "Contact support team",
+        "What are your working hours?"
+      ],
+      "responses": [
+        "You can reach our live human support team at 1800-123-4567 (Toll-Free) or email support@shopease.com. Our agents are available Monday to Saturday, 9:00 AM to 8:00 PM IST."
+      ],
+      "context_set": ""
+    }
+  ]
+}

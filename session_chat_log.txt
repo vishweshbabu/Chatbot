@@ -1,0 +1,52 @@
+
+============================================================
+Session Started: 2026-10-05 14:52:29
+============================================================
+[2026-10-05 14:52:39] USER: hi
+[2026-10-05 14:52:39] BOT (greeting | conf=1.00 | ctx=greeting): Hi there! I'm your virtual support assistant. What can I help you with?
+[2026-10-05 14:52:48] USER: what is the time now
+[2026-10-05 14:52:48] BOT (bot_identity | conf=0.44 | ctx=greeting): I am the ShopEase AI Assistant! I can help you track orders, process returns, check refunds, view payment options, and answer store FAQs.
+
+============================================================
+Session Started: 2026-10-05 14:53:37
+============================================================
+[2026-10-05 14:53:37] USER: Hello there!
+[2026-10-05 14:53:37] BOT (greeting | conf=0.76 | ctx=greeting): Hi there! I'm your virtual support assistant. What can I help you with?
+[2026-10-05 14:53:37] USER: My name is Rahul
+[2026-10-05 14:53:37] BOT (context_name_capture | conf=1.00 | ctx=greeting): Nice to meet you, Rahul! How can I assist you with your orders or questions today?
+[2026-10-05 14:53:37] USER: Who are you and what can you do?
+[2026-10-05 14:53:37] BOT (bot_identity | conf=0.70 | ctx=greeting): I am the ShopEase AI Assistant! I can help you track orders, process returns, check refunds, view payment options, and answer store FAQs.
+[2026-10-05 14:53:37] USER: Where is my order?
+[2026-10-05 14:53:37] BOT (order_status | conf=1.00 | ctx=order_context): I can certainly check that for you! Could you please share your 6-digit Order ID (e.g., #102345)? Or let me know if you want to cancel or modify this order.
+[2026-10-05 14:53:37] USER: My order ID is #458921
+[2026-10-05 14:53:37] BOT (context_order_lookup | conf=1.00 | ctx=order_context): Thank you! Rahul, your Order #458921 is currently 'In Transit' and is scheduled for delivery tomorrow by 6:00 PM.
+[2026-10-05 14:53:37] USER: Can I cancel it?
+[2026-10-05 14:53:37] BOT (order_cancel | conf=0.95 | ctx=order_context): I have initiated a cancellation check for Order #458921. Since it has not reached the final hub yet, you can confirm cancellation under 'My Orders' -> 'Cancel'.
+[2026-10-05 14:53:37] USER: What is your return policy?
+[2026-10-05 14:53:37] BOT (return_policy | conf=1.00 | ctx=return_context): We offer a hassle-free 14-day return and exchange policy for unused items in their original packaging. Would you like to know how long the refund takes after a return?
+[2026-10-05 14:53:37] USER: Yes please
+[2026-10-05 14:53:37] BOT (refund_status | conf=0.95 | ctx=return_context): Once your return is picked up, refunds are credited within 3 to 5 business days to your original payment source.
+[2026-10-05 14:53:37] USER: Where is my refund?
+[2026-10-05 14:53:37] BOT (refund_status | conf=1.00 | ctx=return_context): Once your returned item is picked up and inspected, refunds are processed within 3 to 5 business days back to your original payment method.
+[2026-10-05 14:53:37] USER: What payment methods do you accept?
+[2026-10-05 14:53:37] BOT (payment_methods | conf=1.00 | ctx=return_context): We accept UPI (GPay, PhonePe, Paytm), Credit/Debit Cards (Visa, MasterCard, RuPay), Net Banking, No-Cost EMI, and Cash on Delivery (COD) on eligible orders.
+[2026-10-05 14:53:37] USER: Do you accept UPI?
+[2026-10-05 14:53:37] BOT (payment_methods | conf=1.00 | ctx=return_context): We accept UPI (GPay, PhonePe, Paytm), Credit/Debit Cards (Visa, MasterCard, RuPay), Net Banking, No-Cost EMI, and Cash on Delivery (COD) on eligible orders.
+[2026-10-05 14:53:37] USER: How much is shipping?
+[2026-10-05 14:53:37] BOT (shipping_info | conf=1.00 | ctx=return_context): Standard shipping takes 3-5 business days and is FREE on orders above Rs. 499! Express 1-day delivery is available in select cities for Rs. 99.
+[2026-10-05 14:53:37] USER: Do you offer free delivery?
+[2026-10-05 14:53:37] BOT (shipping_info | conf=1.00 | ctx=return_context): Standard shipping takes 3-5 business days and is FREE on orders above Rs. 499! Express 1-day delivery is available in select cities for Rs. 99.
+[2026-10-05 14:53:37] USER: Are there any promo codes or discounts today?
+[2026-10-05 14:53:37] BOT (discounts_offers | conf=0.76 | ctx=return_context): You can use code WELCOME15 for 15% off your first order (up to Rs. 300)! Also check our 'Deals of the Day' banner for up to 50% off electronics and fashion.
+[2026-10-05 14:53:37] USER: I received a damaged item, how can I return a product?
+[2026-10-05 14:53:37] BOT (return_policy | conf=0.89 | ctx=return_context): We offer a hassle-free 14-day return and exchange policy for unused items in their original packaging. Would you like to know how long the refund takes after a return?
+[2026-10-05 14:53:37] USER: I want to talk to a human agent
+[2026-10-05 14:53:37] BOT (human_agent | conf=0.92 | ctx=return_context): You can reach our live human support team at 1800-123-4567 (Toll-Free) or email support@shopease.com. Our agents are available Monday to Saturday, 9:00 AM to 8:00 PM IST.
+[2026-10-05 14:53:37] USER: What is the weather on Mars right now?
+[2026-10-05 14:53:37] BOT (payment_methods | conf=0.42 | ctx=return_context): We accept UPI (GPay, PhonePe, Paytm), Credit/Debit Cards (Visa, MasterCard, RuPay), Net Banking, No-Cost EMI, and Cash on Delivery (COD) on eligible orders.
+[2026-10-05 14:53:37] USER: Can you write a recipe for chocolate cake?
+[2026-10-05 14:53:37] BOT (bot_identity | conf=0.42 | ctx=return_context): I am the ShopEase AI Assistant! I can help you track orders, process returns, check refunds, view payment options, and answer store FAQs.
+[2026-10-05 14:53:37] USER: Thanks a lot for your help!
+[2026-10-05 14:53:37] BOT (thanks | conf=0.68 | ctx=return_context): Rahul, anytime! Glad I could assist.
+[2026-10-05 14:53:37] USER: Goodbye!
+[2026-10-05 14:53:37] BOT (goodbye | conf=1.00 | ctx=return_context): Rahul, goodbye! Thank you for chatting with ShopEase Support. Have a wonderful day!
